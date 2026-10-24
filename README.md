@@ -8,7 +8,7 @@ Paired evaluation of decision turnover under missing and noisy input features on
 
 ## Upload status
 
-**Publication is incomplete.** The original scripts, Figure 1 PDF, summary results and methods are committed. Four large artifacts remain pending: `results/all_metrics.csv`, `results/case_audit.npz`, `final/figures/Figure_1.png` and `final/figures/Figure_2.png`. Automatic connector review could not process the large payload, and a signed-in GitHub browser session is needed to finish uploading them. The audit and full comparison require the two pending result files; this checkout alone cannot yet perform those checks. Current verification reports describe execution against the complete recovered local package.
+**Publication is incomplete.** The original scripts, summary results and methods are committed, but Figure 1 artwork has not yet been verified in the repository. The essential large artifacts still missing are `results/all_metrics.csv`, `results/case_audit.npz` and the Figure 1 artwork (`final/figures/Figure_1.pdf` and `.png`). Figure 2 is excluded from the final manuscript and is not required here. Automatic connector review could not process the large payload, and a signed-in GitHub browser session is needed to finish uploading them. The audit and full comparison require the two pending result files; this checkout alone cannot yet perform those checks. Current verification reports describe execution against the complete recovered local package.
 
 ## Verification status
 
@@ -40,7 +40,7 @@ The full experiment downloads the public UCI archive and trains both partitions.
 | [audit_results.py](audit_results.py) | Original saved-result audit, unchanged |
 | [requirements.txt](requirements.txt) | Five original pinned scientific dependencies; mirrored in `source/requirements.txt` |
 | [results/](results/) | Original metric CSVs, compressed case arrays and run metadata |
-| [final/figures/Figure_1.pdf](final/figures/Figure_1.pdf) | Publication Figure 1 supplied in the research package; PNG upload pending |
+| [final/figures/Figure_1.pdf](final/figures/Figure_1.pdf) | Publication Figure 1 supplied in the research package; PDF and PNG upload pending |
 | [final/](final/) | Both supplied figure layouts, expanded tables and earlier audit reports |
 | [Supplementary_Material_S1.md](Supplementary_Material_S1.md) | Methods, interpretation limits and reproduction details |
 | [verification/](verification/) | Current verification evidence and provenance |
