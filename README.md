@@ -8,13 +8,13 @@ Paired evaluation of decision turnover under missing and noisy input features on
 
 ## Upload status
 
-**Publication is incomplete.** The original scripts, summary results and methods are committed, but Figure 1 artwork has not yet been verified in the repository. The essential large artifacts still missing are `results/all_metrics.csv`, `results/case_audit.npz` and the Figure 1 artwork (`final/figures/Figure_1.pdf` and `.png`). Figure 2 is excluded from the final manuscript and is not required here. Automatic connector review could not process the large payload, and a signed-in GitHub browser session is needed to finish uploading them. The audit and full comparison require the two pending result files; this checkout alone cannot yet perform those checks. Current verification reports describe execution against the complete recovered local package.
+**The three requested result uploads are complete:** [all_metrics.csv](results/all_metrics.csv), [case_audit.npz](results/case_audit.npz) and [figure1.png](results/figure1.png). These files are preserved byte-for-byte from `GitHub_Remaining_3_Files.zip`. The existing code and results are unchanged. The existing [Figure 1 PDF](final/figures/Figure_1.pdf) is also present. No Figure 2 was added in this completion; the pre-existing historical Figure 2 PDF remains unchanged and is excluded from the final manuscript. Upload completion does not mean strict numerical reproduction passed. See [upload record](verification/upload_status.json).
 
 ## Verification status
 
-The saved-result audit passed on 23 October 2026. A fresh full run with the five pinned package versions completed both partitions and all 30 repetitions, but **strict reproduction failed for Random Forest** in both partitions. Logistic Regression, HistGradientBoosting and the constant baseline retained identical saved decision frequencies and clean error flags; Random Forest changed 26 random-partition and 225 chronological-partition clean error flags. Maximum Random Forest clean-probability differences were 0.03178 and 0.02348, respectively. The cause has not been established. See [current comparison](verification/reproducibility.json), [model breakdown](verification/model_comparison.json) and [fresh run metadata](verification/fresh_run_metadata.json). The earlier package report of exact reproduction is historical evidence and is not confirmed by this new run.
+The saved-result audit passed on 23 October 2026. A fresh full run with the five pinned package versions completed both partitions and all 30 repetitions, but **strict reproduction failed for Random Forest** in both partitions. Logistic Regression, HistGradientBoosting and the constant baseline retained identical saved decision frequencies and clean error flags; Random Forest changed 26 random-partition and 225 chronological-partition clean error flags. Maximum Random Forest clean-probability differences were 0.03178 and 0.02348, respectively. The cause has not been established; platform/build differences remain a hypothesis, not a verified explanation. This upload did not rerun training or resolve the discrepancy. See [current comparison](verification/reproducibility.json), [model breakdown](verification/model_comparison.json) and [fresh run metadata](verification/fresh_run_metadata.json). The earlier package report of exact reproduction is historical evidence and is not confirmed by this new run.
 
-## Reproduce (after the pending result files are uploaded)
+## Reproduce
 
 Use **Python 3.11 or 3.12**. Run these commands from the repository root:
 
@@ -40,8 +40,9 @@ The full experiment downloads the public UCI archive and trains both partitions.
 | [audit_results.py](audit_results.py) | Original saved-result audit, unchanged |
 | [requirements.txt](requirements.txt) | Five original pinned scientific dependencies; mirrored in `source/requirements.txt` |
 | [results/](results/) | Original metric CSVs, compressed case arrays and run metadata |
-| [final/figures/Figure_1.pdf](final/figures/Figure_1.pdf) | Publication Figure 1 supplied in the research package; PDF and PNG upload pending |
-| [final/](final/) | Both supplied figure layouts, expanded tables and earlier audit reports |
+| [results/figure1.png](results/figure1.png) | Figure 1 PNG from the prepared remaining-upload package |
+| [final/figures/Figure_1.pdf](final/figures/Figure_1.pdf) | Existing publication Figure 1 PDF |
+| [final/](final/) | Existing publication layouts, expanded tables and historical audit reports; Figure 2 is excluded from the final manuscript |
 | [Supplementary_Material_S1.md](Supplementary_Material_S1.md) | Methods, interpretation limits and reproduction details |
 | [verification/](verification/) | Current verification evidence and provenance |
 | [scripts/verify_reproduction.py](scripts/verify_reproduction.py) | Comparison helper added for this repository |
