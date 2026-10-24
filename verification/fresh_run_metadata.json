@@ -1,0 +1,230 @@
+{
+  "dataset_url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+  "input_source": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+  "input_csv_sha256": "74adfc578bf77a7ff4bb1ba4a9f8709d9e3c6907342959c2c8416847e0afb4d8",
+  "rows": 41188,
+  "raw_predictors_after_duration_removal": 19,
+  "positive_count": 4640,
+  "positive_prevalence": 0.11265417111780131,
+  "data_license": "CC BY 4.0",
+  "dataset_doi": "10.24432/C5K306",
+  "duration_removed": true,
+  "unknown_category_retained": true,
+  "title": "Data Quality-Aware AI Decision Intelligence: Quantifying Decision Stability Under Missing and Noisy Data",
+  "seed": 20261023,
+  "repetitions": 30,
+  "bootstrap_draws": 500,
+  "noise_sd_multiplier": 0.25,
+  "severity_levels": [
+    0.05,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-26.6-arm64-arm-64bit",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "scipy": "1.14.1",
+  "scikit_learn": "1.5.2",
+  "matplotlib": "3.9.2",
+  "source_sha256": "d9aa3ebbe7519e2c3d958a3c49c737c29eed40ee5f706dee16bba2ac50440ebe",
+  "splits": {
+    "random": {
+      "train_n": 24712,
+      "validation_n": 8238,
+      "test_n": 8238,
+      "train_prevalence": 0.11265781806409841,
+      "validation_prevalence": 0.11264870114105366,
+      "test_prevalence": 0.11264870114105366,
+      "corruption_spec": {
+        "age": 10.40678691211317,
+        "campaign": 2.773151205605878,
+        "pdays": 3.8143120037594365,
+        "previous": 0.49492169042506723,
+        "emp.var.rate": 1.5733984773032075,
+        "cons.price.idx": 0.5805277161502078,
+        "cons.conf.idx": 4.643294755947574,
+        "euribor3m": 1.7365670984175123,
+        "nr.employed": 72.38232652030861,
+        "job": [
+          "admin.",
+          "blue-collar",
+          "entrepreneur",
+          "housemaid",
+          "management",
+          "retired",
+          "self-employed",
+          "services",
+          "student",
+          "technician",
+          "unemployed",
+          "unknown"
+        ],
+        "marital": [
+          "divorced",
+          "married",
+          "single",
+          "unknown"
+        ],
+        "education": [
+          "basic.4y",
+          "basic.6y",
+          "basic.9y",
+          "high.school",
+          "illiterate",
+          "professional.course",
+          "university.degree",
+          "unknown"
+        ],
+        "default": [
+          "no",
+          "unknown",
+          "yes"
+        ],
+        "housing": [
+          "no",
+          "unknown",
+          "yes"
+        ],
+        "loan": [
+          "no",
+          "unknown",
+          "yes"
+        ],
+        "contact": [
+          "cellular",
+          "telephone"
+        ],
+        "month": [
+          "apr",
+          "aug",
+          "dec",
+          "jul",
+          "jun",
+          "mar",
+          "may",
+          "nov",
+          "oct",
+          "sep"
+        ],
+        "day_of_week": [
+          "fri",
+          "mon",
+          "thu",
+          "tue",
+          "wed"
+        ],
+        "poutcome": [
+          "failure",
+          "nonexistent",
+          "success"
+        ]
+      }
+    },
+    "chronological": {
+      "train_n": 24712,
+      "validation_n": 8238,
+      "test_n": 8238,
+      "train_prevalence": 0.04807381029459372,
+      "validation_prevalence": 0.11070648215586307,
+      "test_prevalence": 0.3083272638990046,
+      "corruption_spec": {
+        "age": 9.262529001266852,
+        "campaign": 3.284132756345023,
+        "pdays": 0.9428090415820632,
+        "previous": 0.07233898120497718,
+        "emp.var.rate": 0.27281354783600315,
+        "cons.price.idx": 0.3396705401380731,
+        "cons.conf.idx": 3.03201144130226,
+        "euribor3m": 0.12463528188976115,
+        "nr.employed": 17.438013981667467,
+        "job": [
+          "admin.",
+          "blue-collar",
+          "entrepreneur",
+          "housemaid",
+          "management",
+          "retired",
+          "self-employed",
+          "services",
+          "student",
+          "technician",
+          "unemployed",
+          "unknown"
+        ],
+        "marital": [
+          "divorced",
+          "married",
+          "single",
+          "unknown"
+        ],
+        "education": [
+          "basic.4y",
+          "basic.6y",
+          "basic.9y",
+          "high.school",
+          "illiterate",
+          "professional.course",
+          "university.degree",
+          "unknown"
+        ],
+        "default": [
+          "no",
+          "unknown",
+          "yes"
+        ],
+        "housing": [
+          "no",
+          "unknown",
+          "yes"
+        ],
+        "loan": [
+          "no",
+          "unknown",
+          "yes"
+        ],
+        "contact": [
+          "cellular",
+          "telephone"
+        ],
+        "month": [
+          "aug",
+          "jul",
+          "jun",
+          "may",
+          "nov",
+          "oct"
+        ],
+        "day_of_week": [
+          "fri",
+          "mon",
+          "thu",
+          "tue",
+          "wed"
+        ],
+        "poutcome": [
+          "failure",
+          "nonexistent",
+          "success"
+        ]
+      }
+    }
+  },
+  "constant_threshold": 0.5,
+  "abstract_word_count": 146,
+  "elapsed_seconds": 430.1538166999817,
+  "primary_metric_rows": 3840,
+  "diagnostic_random_only": false,
+  "execution_complete": true,
+  "submission_ready": false,
+  "remaining_review": [
+    "Independent reproduction and manuscript scientific review",
+    "Interpret chronological sensitivity and fixed-threshold results",
+    "Official template and accepted-paper comparison",
+    "DOCX/PDF formatting, page-count verification and visual QA",
+    "Reference full-text verification and complete novelty review",
+    "Q1/Scopus ranking verification for the named year and category",
+    "Author declarations, affiliation and repository publication"
+  ]
+}

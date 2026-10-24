@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-23",
+  "saved_results_audit_passed": true,
+  "fresh_full_execution_completed": true,
+  "strict_reproduction_passed": false,
+  "dataset_and_source_hashes_match": true,
+  "per_model": [
+    {
+      "model": "Logistic Regression",
+      "split": "random",
+      "flip_frequencies_identical": true,
+      "clean_error_flags_changed": 0,
+      "max_clean_probability_difference": 4.484845828045536e-11,
+      "max_evaluation_numeric_difference": 2.9667102108277277e-12,
+      "evaluation_numbers_within_5e_8": true
+    },
+    {
+      "model": "Logistic Regression",
+      "split": "chronological",
+      "flip_frequencies_identical": true,
+      "clean_error_flags_changed": 0,
+      "max_clean_probability_difference": 2.3753514346441795e-16,
+      "max_evaluation_numeric_difference": 1.2101430968414206e-14,
+      "evaluation_numbers_within_5e_8": true
+    },
+    {
+      "model": "Random Forest",
+      "split": "random",
+      "flip_frequencies_identical": false,
+      "clean_error_flags_changed": 26,
+      "max_clean_probability_difference": 0.03178122150728696,
+      "max_evaluation_numeric_difference": 0.012624423403738705,
+      "evaluation_numbers_within_5e_8": false
+    },
+    {
+      "model": "Random Forest",
+      "split": "chronological",
+      "flip_frequencies_identical": false,
+      "clean_error_flags_changed": 225,
+      "max_clean_probability_difference": 0.02347600361287233,
+      "max_evaluation_numeric_difference": 0.018451080359310423,
+      "evaluation_numbers_within_5e_8": false
+    },
+    {
+      "model": "HistGradientBoosting",
+      "split": "random",
+      "flip_frequencies_identical": true,
+      "clean_error_flags_changed": 0,
+      "max_clean_probability_difference": 2.7755575615628914e-17,
+      "max_evaluation_numeric_difference": 0.0,
+      "evaluation_numbers_within_5e_8": true
+    },
+    {
+      "model": "HistGradientBoosting",
+      "split": "chronological",
+      "flip_frequencies_identical": true,
+      "clean_error_flags_changed": 0,
+      "max_clean_probability_difference": 5.551115123125783e-17,
+      "max_evaluation_numeric_difference": 0.0,
+      "evaluation_numbers_within_5e_8": true
+    },
+    {
+      "model": "Constant baseline",
+      "split": "random",
+      "flip_frequencies_identical": true,
+      "clean_error_flags_changed": 0,
+      "max_clean_probability_difference": 0.0,
+      "max_evaluation_numeric_difference": 0.0,
+      "evaluation_numbers_within_5e_8": true
+    },
+    {
+      "model": "Constant baseline",
+      "split": "chronological",
+      "flip_frequencies_identical": true,
+      "clean_error_flags_changed": 0,
+      "max_clean_probability_difference": 0.0,
+      "max_evaluation_numeric_difference": 0.0,
+      "evaluation_numbers_within_5e_8": true
+    }
+  ],
+  "interpretation": "Only Random Forest fails the strict comparison. The cause is not established; platform/build differences are a hypothesis, not a verified explanation. Preserved original results have not been replaced."
+}

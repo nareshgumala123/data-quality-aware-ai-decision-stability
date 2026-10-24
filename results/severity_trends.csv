@@ -1,0 +1,9 @@
+model,mechanism,spearman_rho_descriptive,severity_points
+Constant baseline,missing,,4
+Constant baseline,noise,,4
+HistGradientBoosting,missing,1.0,4
+HistGradientBoosting,noise,1.0,4
+Logistic Regression,missing,1.0,4
+Logistic Regression,noise,1.0,4
+Random Forest,missing,1.0,4
+Random Forest,noise,1.0,4

@@ -1,0 +1,37 @@
+{
+  "all_metrics.csv": {
+    "rows": 3840,
+    "maximum_absolute_difference": 3.4547278704444295e-08
+  },
+  "clean_metrics.csv": {
+    "rows": 16,
+    "maximum_absolute_difference": 3.454727859342199e-08
+  },
+  "table1.csv": {
+    "rows": 4,
+    "maximum_absolute_difference": 5.518085988143184e-13
+  },
+  "table2.csv": {
+    "rows": 6,
+    "maximum_absolute_difference": 0.0
+  },
+  "primary_summary.csv": {
+    "rows": 32,
+    "maximum_absolute_difference": 2.3420154704467677e-13
+  },
+  "error_association.csv": {
+    "rows": 6,
+    "maximum_absolute_difference": 0.0
+  },
+  "severity_trends.csv": {
+    "rows": 8,
+    "maximum_absolute_difference": 0.0
+  },
+  "case_audit.npz": {
+    "arrays": 95,
+    "maximum_absolute_difference": 5.020650561959883e-12,
+    "all_flip_frequencies_row_ids_labels_and_errors_identical": true
+  },
+  "status": "full two-split thirty-repetition rerun passed; scalar metric absolute tolerance 5e-8",
+  "interpretation": "Decision counts reproduce exactly. Negligible floating-point differences change some near-tie ranking metrics by at most 3.46e-8. Uploaded results remain the manuscript source."
+}

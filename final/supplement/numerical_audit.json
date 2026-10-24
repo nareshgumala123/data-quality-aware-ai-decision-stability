@@ -1,0 +1,20 @@
+{
+  "input_source_hash_matches": true,
+  "dataset_rows": 41188,
+  "evaluation_rows": 3840,
+  "clean_policy_rows_recomputed": 16,
+  "condition_groups_recomputed": 64,
+  "full_condition_policy_groups": 128,
+  "repetitions_per_group": 30,
+  "partition_disjointness_checked": true,
+  "flip_decomposition_checked": true,
+  "accuracy_change_identity_checked": true,
+  "balanced_accuracy_change_recomputed_from_cases": true,
+  "paired_corruption_exposure_checked": true,
+  "original_results_unchanged": true,
+  "numerical_tolerance_case_frequency": 3e-08,
+  "figures": 2,
+  "tables": 2,
+  "independent_retraining": "full two-split thirty-repetition rerun passed; scalar metric absolute tolerance 5e-8",
+  "journal_submission_ready": false
+}

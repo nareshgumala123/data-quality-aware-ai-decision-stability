@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-23",
+  "complete": false,
+  "pending": [
+    "results/all_metrics.csv",
+    "results/case_audit.npz",
+    "final/figures/Figure_1.png",
+    "final/figures/Figure_2.png"
+  ],
+  "reason": "Connector large-file automatic review exceeded its input budget. Local Git and the in-app browser are not signed in. Browser sign-in requested from the user.",
+  "complete_local_package_verified": true,
+  "strict_numerical_reproduction": false
+}

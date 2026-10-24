@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-23",
+  "repository": "https://github.com/nareshgumala123/data-quality-aware-ai-decision-stability",
+  "recovered_archive": "Naresh_Gumala_Revised_Research_Package.zip",
+  "archive_sha256": "76c6597fb9515e82136922ed71d96b1accefe6980e825db3ef7ba553c6fa6618",
+  "separately_named_GitHub_upload_archive_found": false,
+  "requested_missing_archive": "Naresh_Gumala_GitHub_Research_Upload.zip",
+  "original_sources": [
+    {
+      "path": "source/research.py",
+      "sha256": "d9aa3ebbe7519e2c3d958a3c49c737c29eed40ee5f706dee16bba2ac50440ebe",
+      "also_matches_separately_uploaded_original": true
+    },
+    {
+      "path": "audit_results.py",
+      "sha256": "3ae3992799a96b9d1c8b6f4bc7aaa39551469ebdf1908d90cbe52ca9862cdccf",
+      "also_matches_separately_uploaded_original": true
+    }
+  ],
+  "preservation": "Original scripts, original result files, supplied final figures, tables and historical audit reports are byte-identical to the recovered package. README, supplementary execution/provenance notes and current verification files were updated or added. The Word manuscript and historical Colab launcher are not included.",
+  "fresh_reproduction": "Completed, but strict numerical agreement failed for Random Forest. See current reports."
+}

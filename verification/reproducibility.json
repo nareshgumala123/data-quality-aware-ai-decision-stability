@@ -1,0 +1,446 @@
+{
+  "reference": "results",
+  "candidate": "../rerun",
+  "csv": {
+    "all_metrics.csv": {
+      "rows": 3840,
+      "labels_equal": true,
+      "maximum_absolute_difference": 0.018451080359310423,
+      "within_absolute_tolerance_5e_8": false
+    },
+    "clean_metrics.csv": {
+      "rows": 16,
+      "labels_equal": true,
+      "maximum_absolute_difference": 0.015659140568099028,
+      "within_absolute_tolerance_5e_8": false
+    },
+    "primary_summary.csv": {
+      "rows": 32,
+      "labels_equal": true,
+      "maximum_absolute_difference": 0.009524965606538816,
+      "within_absolute_tolerance_5e_8": false
+    },
+    "table1.csv": {
+      "rows": 4,
+      "labels_equal": true,
+      "maximum_absolute_difference": 0.004298146115409213,
+      "within_absolute_tolerance_5e_8": false
+    },
+    "table2.csv": {
+      "rows": 6,
+      "labels_equal": true,
+      "maximum_absolute_difference": 0.0075180059885084916,
+      "within_absolute_tolerance_5e_8": false
+    },
+    "error_association.csv": {
+      "rows": 6,
+      "labels_equal": true,
+      "maximum_absolute_difference": 0.01363879973965798,
+      "within_absolute_tolerance_5e_8": false
+    },
+    "severity_trends.csv": {
+      "rows": 8,
+      "labels_equal": true,
+      "maximum_absolute_difference": 0.0,
+      "within_absolute_tolerance_5e_8": true
+    }
+  },
+  "arrays": {
+    "random_train_row_ids": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_validation_row_ids": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_test_row_ids": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_lr_clean_probability": {
+      "exact_comparison": false,
+      "match": true
+    },
+    "random_rf_clean_probability": {
+      "exact_comparison": false,
+      "match": false
+    },
+    "random_hgb_clean_probability": {
+      "exact_comparison": false,
+      "match": true
+    },
+    "random_constant_clean_probability": {
+      "exact_comparison": false,
+      "match": true
+    },
+    "random_lr_missing_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_lr_clean_error": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_lr_margin": {
+      "exact_comparison": false,
+      "match": true
+    },
+    "random_rf_missing_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "random_rf_clean_error": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "random_rf_margin": {
+      "exact_comparison": false,
+      "match": false
+    },
+    "random_hgb_missing_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_hgb_clean_error": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_hgb_margin": {
+      "exact_comparison": false,
+      "match": true
+    },
+    "random_constant_missing_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_constant_clean_error": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_constant_margin": {
+      "exact_comparison": false,
+      "match": true
+    },
+    "random_lr_missing_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_rf_missing_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "random_hgb_missing_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_constant_missing_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_lr_missing_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_rf_missing_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "random_hgb_missing_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_constant_missing_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_lr_missing_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_rf_missing_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "random_hgb_missing_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_constant_missing_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_lr_noise_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_rf_noise_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "random_hgb_noise_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_constant_noise_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_lr_noise_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_rf_noise_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "random_hgb_noise_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_constant_noise_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_lr_noise_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_rf_noise_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "random_hgb_noise_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_constant_noise_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_lr_noise_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_rf_noise_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "random_hgb_noise_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "random_constant_noise_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_train_row_ids": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_validation_row_ids": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_test_row_ids": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_lr_clean_probability": {
+      "exact_comparison": false,
+      "match": true
+    },
+    "chronological_rf_clean_probability": {
+      "exact_comparison": false,
+      "match": false
+    },
+    "chronological_hgb_clean_probability": {
+      "exact_comparison": false,
+      "match": true
+    },
+    "chronological_constant_clean_probability": {
+      "exact_comparison": false,
+      "match": true
+    },
+    "chronological_lr_missing_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_lr_clean_error": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_lr_margin": {
+      "exact_comparison": false,
+      "match": true
+    },
+    "chronological_rf_missing_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "chronological_rf_clean_error": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "chronological_rf_margin": {
+      "exact_comparison": false,
+      "match": false
+    },
+    "chronological_hgb_missing_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_hgb_clean_error": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_hgb_margin": {
+      "exact_comparison": false,
+      "match": true
+    },
+    "chronological_constant_missing_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_constant_clean_error": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_constant_margin": {
+      "exact_comparison": false,
+      "match": true
+    },
+    "chronological_lr_missing_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_rf_missing_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "chronological_hgb_missing_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_constant_missing_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_lr_missing_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_rf_missing_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "chronological_hgb_missing_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_constant_missing_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_lr_missing_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_rf_missing_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "chronological_hgb_missing_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_constant_missing_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_lr_noise_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_rf_noise_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "chronological_hgb_noise_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_constant_noise_5_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_lr_noise_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_rf_noise_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "chronological_hgb_noise_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_constant_noise_10_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_lr_noise_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_rf_noise_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "chronological_hgb_noise_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_constant_noise_20_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_lr_noise_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_rf_noise_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": false
+    },
+    "chronological_hgb_noise_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "chronological_constant_noise_30_flip_frequency": {
+      "exact_comparison": true,
+      "match": true
+    },
+    "target": {
+      "exact_comparison": true,
+      "match": true
+    }
+  },
+  "case_array_count": 95,
+  "decision_frequencies_row_ids_labels_and_errors_identical": false,
+  "maximum_probability_or_margin_difference": 0.035715655862008866,
+  "protocol_metadata_equal": true,
+  "candidate_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "scikit_learn": "1.5.2",
+    "matplotlib": "3.9.2",
+    "elapsed_seconds": 430.1538166999817
+  },
+  "candidate_source_hash_matches_repository": true,
+  "passed": false
+}
